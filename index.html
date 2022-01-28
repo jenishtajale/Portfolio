@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Portfolio</title>
@@ -14,11 +15,11 @@
             <div class="logo"><a href="#">Portfo<span>lio.</span></a>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contacts</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -30,27 +31,147 @@
         <div class="home-content">
             <div class="text-1">Hello, My name is</div>
             <div class="text-2">Jenish Tajale</div>
-            <div class="text-3">And I 'm a <span>Web Developer</span></div>
-            <a href="#">Hire Me</a>
+            <div class="text-3">And I 'm a <span class="typing">Web Developer</span></div>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCHTgrfsFPvrhwdWvcNlmPxTLDRwwgDkVzTzcdXTMzFmFZtfJFTMBPWXjzHgKQPZptNlDV">Hire Me</a>
         </div>
     </div>
-
 </section>
-<p>Showing the latest stable release in each major branch. See all versions of jQuery Core.
+<section class="about" id="about">
+    <div class="max-width">
+        <h1 class="title">About Me</h1>
+        <div class="about-content">
+            <div class="column left">
+                <img src="jenish.jpg" alt="">
+            </div>
+            <div class="column right">
+                <div class="text">I'm Jenish Tajale and I'm a <span class="typing-2">Web developer</span></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, quaerat natus? Sed, odit repellat non maiores reiciendis nesciunt quis omnis! Inventore, eaque saepe laborum blanditiis ex illo quo eos molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse inventore quisquam natus libero corporis sequi aliquid consequatur facilis aspernatur harum, exercitationem voluptatibus placeat hic soluta eos. Tenetur qui ut hic.</p>
+                <a href="CV.pdf">Open CV</a>
+            </div>
+        </div>
+    </div>
+</section>
 
-    jQuery 3.x
-    jQuery Core 3.6.0 - uncompressed, minified, slim, slim minified
-    jQuery 2.x
-    jQuery Core 2.2.4 - uncompressed, minified
-    jQuery 1.x
-    jQuery Core 1.12.4 - uncompressed, minified
-    jQuery Migrate
-    jQuery Migrate 3.3.2 - uncompressed, minified
-    jQuery UI
-    Showing the latest stable release for the current and legacy release families. See all versions of jQuery UI.
-    
-    jQuery UI 1.13
-    jQuery UI 1.13.0 - uncomp</p>
+<section class="resume" id="resume">
+    <div class="max-width">
+        <h1 class="title">My Resume</h1>
+        <div class="resume-content">
+            <img src="capture.jpg" alt="">
+            <a href="CV.pdf">Download Resume</a>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My Skills</h2>
+        <div class="skills-content">
+            <div class="column left"> 
+                <div class="text">My Creative skills and experince.</div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse commodi molestiae quam magni laboriosam dolores officia repellendus, fugit illum deserunt saepe fugiat et sed cumque quidem atque, ullam totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque reprehenderit modi, blanditiis nihil eos magnam officia necessitatibus tenetur dolores obcaecati animi nulla optio, placeat illum corporis dicta dignissimos explicabo.</p>  
+                <a href="#">Read More</a>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Java</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line java"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Python</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="line python"></div>
+                </div>
+             </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="max-width">
+        <h2 class="title"> Contact Me</h2>
+        <div class="contact-content">
+            <div class="column left">
+                <div class="text">Get In Touch</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero, ipsam deserunt distinctio consequatur doloremque autem hic voluptatum laboriosam optio.</p>
+                <div class="icons">
+                    <div class="row">
+                    <i class="fas fa-user"></i>
+                    <div class="info">
+                        <div class="head">Name</div>
+                        <div class="sub-title">Jenish Tajale</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="info">
+                        <div class="head">Address</div>
+                        <div class="sub-title">Kamalbinayak, Bhaktapur</div>
+                    </div>
+                </div>    
+                <div class="row">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info">
+                        <div class="head">Email</div>
+                        <div class="sub-title">Jenish.tajale415@gmail.com</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="text">Message Me</div>
+                <form action="#">
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="field email">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="field textarea">
+                      <textarea placeholder="Describe Project" cols="30" rows="10" required></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="Submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <span>Created By <a href="https://www.facebook.com/jenish.tajale">Jenish Tajale</a></span> | <span class="far fa-copyright"> 2022 All rights reserved </span>
+</footer>
 <script src="script.js"></script>
     
 </body>
